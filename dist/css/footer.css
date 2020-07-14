@@ -1,0 +1,106 @@
+footer
+{
+  background: #444;
+  color: white;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(100, 1%);
+  grid-template-rows: repeat(100, 1%);
+}
+
+footer a
+{
+  color: inherit;
+}
+
+footer a:hover
+{
+  color: #eece1a;
+  background: inherit;
+}
+
+.icons
+{
+  grid-row: 1/60;
+  grid-column: 1/30;
+  padding: 3px;
+  display: grid;
+  grid-template: repeat(2, 50%) / repeat(2, 50%);
+  background: rgba(22, 22 , 22, 0.172);
+}
+
+.icons a
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.find
+{
+  grid-row: 1/60;
+  grid-column: 30/-1;
+  margin-top: 7px;
+}
+
+.find address
+{
+  display: flex;
+  flex-flow: row-reverse;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 1.4rem;
+}
+
+.icon
+{
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.address, .numbers
+{
+  flex: 4;
+}
+
+.find .phone
+{
+  display: flex;
+  flex-flow: row-reverse;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+
+.email
+{
+  grid-row: 60/75;
+  grid-column: 1/-1;
+  margin: 1rem 1px;
+  display: flex;
+  justify-content: center;
+}
+
+.email .icon
+{
+  justify-content: flex-end;
+ margin-right: 2px;
+}
+
+.email-address
+{
+  flex: 5;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.copy
+{
+  grid-row: 75/-1;
+  grid-column: 1/-1;
+  margin: 7px 0.05px;
+}
