@@ -1,0 +1,196 @@
+
+
+body
+{
+  color: #333;
+}
+
+body:after
+{
+  content: '';
+  width: 100%;
+  height: 40vh;
+  background: #00193D;
+  position: absolute;
+  top: 91px;
+  opacity: 0.8;
+}
+
+
+.slide
+{
+  position: absolute;
+  top: 91px;
+  width: 0;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  display: none;
+  overflow: hidden;
+  transition: all 0.5s ease-out;
+}
+
+.slide.show
+{
+  display: flex;
+  width: 100%;
+  left: 0;
+  right: 0;
+}
+
+.slide.next
+{
+  left: 100%;
+}
+
+.slide.prev
+{
+  right: 100%;
+}
+
+
+.slide#intro-one
+{
+  background: url('../img/bg-one.jpg') center no-repeat;
+  background-size: cover;
+}
+
+.slide#intro-two
+{
+  background: url('../img/bg-two-sm.jpg') center no-repeat;
+  background-size: cover;
+}
+
+.slide#intro-three
+{
+  background: url('../img/bg-three.jpg') center no-repeat;
+  background-size: cover;
+}
+
+.slide-heading, .slide div
+{
+  z-index: 2;
+}
+
+.slide-heading
+{
+  margin-bottom: 1rem;
+}
+
+main#home
+{
+  padding: 4px;
+}
+
+.btn
+{
+  border: 2px solid #0083FF;
+  height: 5rem;
+  margin: 2.6rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #0083FF;
+  transition: all 0.5s ease-out;
+}
+
+.btn:hover
+{
+  background: #333;
+  color: #eece1a;
+  border: 2px solid #eece1a;
+}
+
+.btn.btn-lg
+{
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+
+.btn.see-services
+{
+  margin-top: 5rem;
+}
+
+.cta.btn.btn-lg
+{
+  min-height: 4rem;
+  background: #000024;
+  display: block;
+  border: none;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  line-height: 1.9rem;
+}
+
+.cta.btn.btn-lg:hover
+{
+  color: #eece1a;
+}
+
+.services-heading, .sub
+{
+  padding-bottom: 5rem;
+}
+
+.service
+{
+  margin: 2rem 0;
+}
+
+.service-heading
+{
+  margin-bottom: 1.3rem;
+}
+
+.service-description
+{
+  color: #777;
+}
+
+.line
+{
+  height: 3.5px;
+  width: 50vw;
+  margin: 1rem 25vw;
+  background: #757575;
+}
+
+.about-heading
+{
+  margin: 9rem 0 1.4rem 0;
+}
+
+.about p
+{
+  line-height: 1.7rem;
+  font-size: 1.2rem;
+  margin-top: 1.7rem;
+  color: #777;
+}
+
+.more-us
+{
+  margin-top: 5rem;
+  margin-bottom: 9rem;
+}
+
+.quote
+{
+  margin: 7rem -4px;
+  padding: 4px;
+  background: yellow;
+  font-style: italic;
+}
+
+.quote span.us
+{
+  display: flex;
+  justify-content: flex-end;
+  font-weight: bold;
+}
