@@ -1,0 +1,104 @@
+h1
+{
+  z-index: 2;
+  font-size: 3rem;
+  line-height: 3.7rem;
+}
+
+#intro
+{
+  background: url('../img/hello.jpg') center no-repeat;
+  background-size: cover;
+  height: 49vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header
+{
+  margin-bottom: 7rem;
+}
+
+body:after
+{
+  content: ' ';
+  position: absolute;
+  top: 91px;
+  width: 100%;
+  background: #00193D;
+  height: 49vh;
+  opacity: 0.8;
+}
+
+header:after
+{
+  content: 'Diamond Berry - Creating brands that can compete on a global scale';
+  min-height: 4rem;
+  background: #000024;
+  display: block;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.line
+{
+  height: 3.5px;
+  width: 50vw;
+  margin: 1rem 25vw;
+  margin-top: 7rem;
+  background: #757575;
+}
+
+.form-group input
+{
+  width: 97%;
+}
+
+.other
+{
+  background: #000024;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem 4px;
+  margin: 4rem 0 0 0;
+}
+
+.other h2
+{
+  color: #eece1a;
+  margin-bottom: 5rem;
+  font-size: 2.3rem;
+  line-height: 2.7rem;
+  width: 100%;
+}
+
+.other li
+{
+  padding-left: 2rem;
+  line-height: 2rem;
+}
+
+form
+{
+  width: 100%;
+  padding: 0.5rem;
+  margin: 0.5rem 0 1rem 0;
+}
+
+.form-group.cta
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-group.cta .submit
+{
+  width: 68%;
+}
+
