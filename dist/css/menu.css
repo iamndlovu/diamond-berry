@@ -1,0 +1,108 @@
+div.menu-btn {
+  top: 2rem;
+  right: 1rem;
+  width: 35px;
+  height: 35px;
+  padding-right: 40px;
+  transition: all 0.5s ease-out;
+}
+
+div.menu-btn.close {
+  transform: rotate(180deg);
+  right: 1.5rem;
+  top: 1rem;
+}
+
+div.menu-btn div.btn-line {
+  width: 28px;
+  height: 3px;
+  margin: 0 0 5px 0;
+  background: #00d;
+  transition: all 0.3s ease-out;
+}
+
+div.menu-btn div.btn-line.close:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+  background: #00d;
+  opacity: 1;
+}
+
+div.menu-btn div.btn-line.close:nth-child(2) {
+  transform: rotate(90deg);
+  visibility: hidden;
+}
+
+div.menu-btn div.btn-line.close:nth-child(3) {
+  transform: rotate(-45deg) translate(7px, -6px);
+  background: #00d;
+  opacity: 1;
+}
+
+
+nav.menu {
+  position: fixed;
+  top: 90px;
+  right: 0;
+  z-index: 3;
+  width: 100%;
+  background: #fff;
+  border-bottom: 2px solid #eece1a;
+  transform: translate(0, -100%);
+  visibility: hidden;
+  transition: all 0.5s ease-out;
+}
+
+nav.menu.show {
+  visibility: visible;
+  transform: translate(0, 0);
+}
+
+nav.menu ul.menu-nav {
+  height: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+nav.menu ul.menu-nav li.nav-item {
+  transform: translate(0, -6000%);
+  transition: all 0.3s ease-out;
+}
+
+nav.menu ul.menu-nav li.nav-item.show {
+  transform: translate(0, 0);
+}
+
+nav.menu ul.menu-nav li.nav-item.show:nth-child(1) {
+  transition-delay: 0.4s;
+}
+
+nav.menu ul.menu-nav li.nav-item.show:nth-child(2) {
+  transition-delay: 0.3s;
+}
+
+nav.menu ul.menu-nav li.nav-item.show:nth-child(3) {
+  transition-delay: 0.2s;
+}
+
+nav.menu ul.menu-nav li.nav-item.show:nth-child(4) {
+  transition-delay: 0.1s;
+}
+
+nav.menu ul.menu-nav li.nav-item .nav-link {
+   display: inline-block;
+   font-size: 18px;
+   position: relative;
+   text-transform: uppercase;
+   padding: 1rem 0;
+   font-weight: 500;
+   color: #333;
+   text-decoration: none;
+   transition: all 0.5s ease-out;
+}
+
+nav.menu ul.menu-nav li.nav-item .nav-link:hover {
+  color: #0083FF;
+}
