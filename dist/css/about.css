@@ -1,0 +1,110 @@
+#intro
+{
+  background: url('../img/business-man.jpg') center no-repeat;
+  background-size: cover;
+  height: 49vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header
+{
+  margin-bottom: 7rem;
+}
+
+body:after
+{
+  content: ' ';
+  position: absolute;
+  top: 91px;
+  width: 100%;
+  background: #00193D;
+  height: 49vh;
+  opacity: 0.8;
+}
+
+header:after
+{
+  content: 'Diamond Berry - Creating brands that can compete on a global scale';
+  min-height: 4rem;
+  background: #000024;
+  display: block;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+h1
+{
+  z-index: 2;
+  font-size: 3rem;
+  line-height: 3.7rem;
+}
+
+.services, .about
+{
+  padding: 3px;
+}
+
+.about p, .services p
+{
+  line-height: 1.7rem;
+  font-size: 1.2rem;
+  margin-top: 1.7rem;
+  color: #777;
+}
+
+.chars
+{
+  background: url('../img/people.jpg') center no-repeat;
+  background-size: cover;
+  color: #eece1a;
+  margin: 5rem 0;
+  height: 20rem;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+}
+
+.char
+{
+  border: 1px solid rgba(99, 00, 00, 0.4);
+  text-align: center;
+  flex-basis: 6rem;
+  height: 8rem;
+  background: rgba(00, 00, 24, 0.4);
+  margin: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.other
+{
+  background: #000024;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem 4px;
+  margin: 4rem 0 0 0;
+}
+
+.other h2
+{
+  color: #eece1a;
+  margin-bottom: 5rem;
+  font-size: 2.3rem;
+  line-height: 2.7rem;
+  width: 100%;
+}
+
+.other li
+{
+  padding-left: 2rem;
+  line-height: 2rem;
+}
+
