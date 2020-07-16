@@ -8,23 +8,31 @@
     * {
         line-height: 2.5rem;
         font-size: 1.2rem;
+        cursor: default;
+    }
+
+    a {
+        cursor: pointer;
     }
 
     div.menu-btn 
     {
         margin: 2rem;
+        cursor: pointer;
     }
 
     nav.menu ul.menu-nav li.nav-item .nav-link 
     {
         font-size: 25px;
+        cursor: pointer;
     }
-
+/*home page*/
     .btn
     {
         height: 7rem;
         width: 50%;
         margin: 6rem 25%;
+        cursor: pointer;
     }
 
     body:after
@@ -111,10 +119,53 @@
     {
         padding: 20px 0 4rem 0;
     }
+/*About page*/
+    #about-header #intro h1 
+    {
+        font-size: 5rem;
+    }
+    #about-header:after
+    {
+        justify-content: center;
+    }
+
+    section.chars
+    {
+        width: 40rem;
+        height: 40rem;
+        margin: 5rem calc((100% - 40rem) / 2);
+        display: grid;
+        grid-gap: 1rem;
+        padding: 1rem;
+        grid-template: repeat(2, 50%) / repeat(2, 1fr);
+    }
+
+    .chars .char
+    {
+        height: calc(100% - 2rem);
+    }
+
+    
+    .other
+    {
+        background: rgba(7, 7, 77, 0.2);
+        padding: 2rem;
+        margin: 4rem 0 11rem 0;
+        color: black;
+    }
+
+    .other h2
+    {
+        color: #000000;
+    }
 
 }
 
 /*tablets and small laptops*/
-@media screen and (min-width: 530px) and (max-width: 768px) {
+@media screen and (min-width: 530px)  {
+    footer .icons
+    {
+        background: #444;
+    }
   
 }
