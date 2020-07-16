@@ -120,11 +120,11 @@
         padding: 20px 0 4rem 0;
     }
 /*About page*/
-    #about-header #intro h1 
+    #intro h1 
     {
         font-size: 5rem;
     }
-    #about-header:after
+    #about-header:after, #services-header:after, #contact-header:after
     {
         justify-content: center;
     }
@@ -163,6 +163,49 @@
 
 /*tablets and small laptops*/
 @media screen and (min-width: 530px)  {
+
+    /*contact page*/
+    form
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+ 
+    .form-group.cta .btn
+    {
+        height: 3.5rem;
+        font-size: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 35%;
+        margin-left: -29%;
+    }
+ 
+    .form-group
+    {
+        width: 100%;
+    }
+ 
+     input.form-control, textarea.form-control
+    {
+        border: 2px solid #aaaaaa;
+    }
+ 
+    input.form-control
+    {
+        width: 75%;
+    }
+ 
+    textarea.form-control
+    {
+        width: 50%;
+        height: 11rem;
+    }
+
     footer .icons
     {
         background: #444;

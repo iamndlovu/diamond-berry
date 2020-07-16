@@ -42,15 +42,6 @@ header:after
   align-items: center;
 }
 
-.line
-{
-  height: 3.5px;
-  width: 50vw;
-  margin: 1rem 25vw;
-  margin-top: 7rem;
-  background: #757575;
-}
-
 .form-group input
 {
   width: 97%;
