@@ -1,6 +1,12 @@
 /* XL screens*/
 @media screen and (min-width: 1171px) {
-   
+
+   /*footer*/
+   footer#main-footer .email .email-address
+   {
+        flex: 3.5;
+   }
+
 }
 
 /*desktop & laptop screens*/
@@ -160,6 +166,17 @@
         color: #000000;
     }
 
+    #our-services article.service
+    {
+        height: 33rem;
+    }
+
+    /*footer*/
+    footer .email .email-address
+    {
+        flex: 3.7;
+    }
+
 }
 
 /*tablets and small laptops*/
@@ -212,14 +229,16 @@
         width: 50%;
         height: 11rem;
     }
-
-    footer .icons
+ 
+    /*services page*/
+    #our-services h1
     {
-        background: #444;
+        margin-bottom: 3rem;
     }
-  /*services page*/
-  #our-services h1
-  {
-      margin-bottom: 3rem;
-  }
+
+    #our-services article.service
+    {
+        height: 36rem;
+    }
+
 }

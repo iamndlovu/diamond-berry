@@ -64,6 +64,9 @@ footer a:hover
 .address, .numbers
 {
   flex: 4;
+  display: flex;;
+  justify-content: flex-end;
+  margin-right: 1rem;
 }
 
 .find .phone
@@ -82,12 +85,14 @@ footer a:hover
   margin: 1rem 1px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .email .icon
 {
+  flex: 2;
   justify-content: flex-end;
- margin-right: 2px;
+  margin-right: 2px;
 }
 
 .email-address
@@ -103,4 +108,6 @@ footer a:hover
   grid-row: 75/-1;
   grid-column: 1/-1;
   margin: 7px 0.05px;
+  font-style: italic;
+  font-size: 1rem;
 }
