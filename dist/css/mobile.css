@@ -88,7 +88,7 @@
         padding-bottom: 2rem;
     }
 
-    .line 
+    .line, #our-services .line
     {
         width: 20%;
         margin: 0 40% 1rem 40%;
@@ -164,6 +164,12 @@
 /*tablets and small laptops*/
 @media screen and (min-width: 530px)  {
 
+    * {
+        line-height: 2.5rem;
+        font-size: 1.2rem;
+        cursor: default;
+    }
+
     /*contact page*/
     form
     {
@@ -210,5 +216,9 @@
     {
         background: #444;
     }
-  
+  /*services page*/
+  #our-services h1
+  {
+      margin-bottom: 3rem;
+  }
 }
