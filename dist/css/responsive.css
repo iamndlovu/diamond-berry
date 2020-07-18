@@ -177,6 +177,22 @@
         flex: 3.7;
     }
 
+    /*our services page*/
+    #our-services article.service
+    {
+        height: 36rem;
+    }
+
+    #our-services article.service .symbol
+    {
+        margin: 3rem 0 1rem 0;
+    }
+
+    #our-services article.service .service-heading
+    {
+        margin-bottom: 4rem;
+    }
+
 }
 
 /*tablets and small laptops*/
@@ -239,6 +255,12 @@
     #our-services article.service
     {
         height: 36rem;
+    }
+
+    /*footer*/
+    footer .icons
+    {
+        background: #444;
     }
 
 }

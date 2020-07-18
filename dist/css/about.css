@@ -81,6 +81,20 @@ h1
   justify-content: center;
 }
 
+.symbol
+{
+  margin-top: 1rem;
+  background: #eece1a;
+  height: 3.7rem;
+  width: 3.7rem;
+}
+
+.symbol img
+{
+  height: 92%;
+  width: 92%;
+}
+
 .other
 {
   background: #000024;
