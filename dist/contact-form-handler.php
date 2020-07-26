@@ -1,6 +1,6 @@
 <?php 
 $errors = '';
-$myemail = 'ndlovu.p@protonmail.com';//<-----Put Your email address here.
+$myemail = 'info@diamondberry.co.zw';//<-----Put Your email address here.
 if(
    empty($_POST['email']) || 
    empty($_POST['message']))
