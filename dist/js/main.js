@@ -10,4 +10,4 @@ function toggleSlides() {
     prev.classList.add('next');
 }
 
-let toggle = setInterval(toggleSlides, 3000);
+let toggle = setInterval(toggleSlides, 6000);
